@@ -3,7 +3,7 @@ mydb = mysql.connector.connect(
     host="localhost",
     user="root",
     password="roottoor",
-    database="rene_ece"
+    database="sandesh_ece"
 )
 mycursor = mydb.cursor()
 mycursor.execute("select * from norah where id=1 ") 
