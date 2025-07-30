@@ -5,7 +5,7 @@ class person:
     def add(self,a,b):
         return a-b
 person = person()
-person.print_name("aarthi")
+person.print_name("sandesh")
 result = person.add(3,5)
 print(result)"""
 """
@@ -29,9 +29,9 @@ class Person():
     CityName = "mumbai"
     def printName(self,name):
         print(name)
-class Aarthi(Person):
+class sandesh(Person):
     def printDetail(self):
         print("some message")
-obj = Aarthi()
+obj = sandesh()
 obj.cityName = "london"
-obj.printName("Aarthi")
+obj.printName("SANDESH")
