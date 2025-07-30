@@ -38,7 +38,7 @@ def insert_data(id,name,email):
     host="localhost",
     user="root",
     password="roottoor",
-    database="rene_ece"
+    database="sandesh_ece"
     )
     mycursor = mydb.cursor()
     sql = "insert into norah(id,name,email)""values (%s,%s,%s)"
